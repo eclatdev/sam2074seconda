@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Your Name" />
+</head>
+<body bgcolor="#ff0000" text="#ffffff" topmargin="0px" leftmargin="0px" >
+<form name="userREG" action="" method="POST" enctype="multipart/form-data">
+
+<table width="960px" align="center" bgcolor="#cccccc" border=0 cellpadding=5 cellspacing=10>
+<tr>
+	<td>
+		<input type="text" name="name" maxlength="50" size="20" placeholder="Username" required="required" />
+	</td>
+	<td></td>
+</tr>
+<tr>
+	<td>
+		<input type="password" size="20" maxlength="50" name="password" required="required" placeholder="Password" />
+	</td>
+	<td>
+		<input type="password" size="20" maxlength="50" name="confirmpassword" required="required" placeholder="Confirm Password" />
+	</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="email" name="email" size="20" placeholder="you@domain.com" required="required" />
+		</td>
+		<td>
+			<input type="date" name="dob" />
+		</td>
+	</tr>
+<tr>
+	<td>
+		<select name="country" size="1">
+			<option vlaue="in">India</option>
+			<option value="np" selected>Nepal</option>
+			
+			<option value="pk">Pakistan</option>
+		</select>
+		
+		</td>
+		<td>
+			<input type="number" name="phoneno"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="radio" name="gender" value="M"/>Male
+			<input type="radio" name="gender" value="F" checked />Female
+		</td>
+		<td>
+			<input type="checkbox" name="php" value="php" checked/>PHP
+			<input type="checkbox" name="html" value="html" />HTML
+			<input type="checkbox" name="css" value="css" />CSS
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<input type="file" name="upload" />
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<textarea name="msg" rows="5" cols="40" palceholder="Your Message"/>
+			
+			</textarea>
+		</td>
+		<td>
+		</td>
+	</tr>
+
+<tr>
+	<td>
+		<input type="submit" name="submit" value="Register" />
+		<input type="reset" name="reset" value="clear" /></td>
+	<td>
+	</td>
+</tr>
+
+
+</table>
+</form>
+</body>
+</html>
