@@ -1,0 +1,174 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+.img-responsive{
+	width:100%;
+	height:auto;
+}
+h2{
+	font-family:'Cabin Sketch';
+	font-size:20px;
+	font-weight:bolder;
+}
+
+.h{
+	font-family: 'Cabin Sketch';
+	font-size:30px;
+		color:#ff0000;
+}
+
+.five{
+	font-size:50px;
+	font-family: 'Cabin Sketch';
+	color:#00ff00;
+}
+body{
+	background-color: #000000;
+}
+
+.container{
+	width:960px;
+	min-height:1000px;
+	border-radius:0px 30px 0px 30px;
+	background-color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+}
+.row{
+	min-height:10px;
+}
+.clear{
+	clear:both;
+}
+.col100{
+	width:100%;
+	min-height:50px;
+}
+.col50{
+	width:48%;
+	min-height:50px;
+	float:left;
+}
+.col25{
+	width:23%;
+	min-height:50px;
+	float:left;
+}
+
+.col75{
+	width:73%;
+	min-height:50px;
+	float:left;
+}
+.banner{
+	background-image: url('../images/webbanner.jpg');
+	background-repeat: no-repeat;
+	min-height:150px;
+
+}
+
+.menu{
+	background-color:#dddccc;
+	min-height:50px;
+	
+}
+
+.menu ul{
+	list-style-type:none;
+	float:right;
+	margin-top:10px;
+
+}
+
+.menu ul li{
+	display:inline;
+	font-family: Rajdhani; 
+	font-size:20px;
+	font-weight:900;
+	text-decoration: overline;
+	font-variant:small-caps;
+	margin-right: 20px;
+
+
+}
+
+.menu ul li a {
+    color: #2964a0;
+    text-decoration: none;
+    font-family: ek mukta,serif;
+}
+
+.thumbs{
+	width:120px;
+	height:120px;
+	background-color: #000000;
+	border-radius:10px;
+}
+
+.social{
+	position:fixed;
+	top:250px;
+	background-color:#ff0000;
+	width:50px;
+	height:150px;
+	right:0;
+}
+
+.social i{
+	font-size:30px;
+	color:#ffffff;
+	margin:10px;
+}
+
+
+
+@media(max-width:768px)
+{
+	.container{
+		width:750px;
+	}
+
+	.slider{
+		
+		display:none;
+	}
+
+	.mdcol100{
+		width:100%;
+	}
+	.mdcol50{
+		width:48%;
+	}
+	.mdcol75{
+		width:73%;
+	}
+	.mdcol25{
+		width:23%;
+	}
+
+}
+
+@media(max-width:480px)
+{
+	.container{	width:450px;}
+	.slider{display:none;}
+	.smcol100{width:100%;}
+	.smcol50{width:48%;	}
+	.smcol75{width:73%;	}
+	.smcol25{width:23%;}
+}
+
+
+
+
+
+
+
+
+
