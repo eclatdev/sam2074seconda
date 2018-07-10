@@ -49,22 +49,41 @@ body{
 .col100{
 	width:100%;
 	min-height:50px;
+	margin:5px;
+	padding:5px;
 }
 .col50{
 	width:48%;
 	min-height:50px;
 	float:left;
+	
 }
 .col25{
 	width:23%;
 	min-height:50px;
 	float:left;
+	margin:2px;
+	padding:2px;
+	
 }
+.col25 img, .mdcol25 img, .smcol25 img{
+	width:220px;
+	height:auto;
+	border-radius:0px 25px 0px 25px;
+	opacity:1;
+}
+
+.col25 img:hover, .mdcol25 img:hover, .smcol25 img:hover{
+	opacity:0.8;
+	}
+
+
 
 .col75{
 	width:73%;
 	min-height:50px;
 	float:left;
+	
 }
 .banner{
 	background-image: url('../images/webbanner.jpg');
@@ -74,6 +93,7 @@ body{
 }
 
 .menu{
+	width:97%;
 	background-color:#dddccc;
 	min-height:50px;
 	
@@ -131,7 +151,7 @@ body{
 @media(max-width:768px)
 {
 	.container{
-		width:750px;
+		width:680px;
 	}
 
 	.slider{
@@ -140,28 +160,31 @@ body{
 	}
 
 	.mdcol100{
-		width:100%;
+		width:98%;
 	}
 	.mdcol50{
-		width:48%;
+		width:46%;
 	}
 	.mdcol75{
-		width:73%;
+		width:70%;
 	}
 	.mdcol25{
-		width:23%;
+		width:21%;
 	}
 
 }
 
 @media(max-width:480px)
 {
-	.container{	width:450px;}
+	.container{	width:395px;}
 	.slider{display:none;}
 	.smcol100{width:100%;}
 	.smcol50{width:48%;	}
 	.smcol75{width:73%;	}
 	.smcol25{width:23%;}
+	.social{display:none;}
+.menu{width:95%;}
+}
 }
 
 
